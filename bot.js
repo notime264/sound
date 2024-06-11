@@ -98,11 +98,11 @@ fs.readdir(config.commandsDir, (err, files) => {
 
 if (config.TOKEN || process.env.TOKEN) {
   client.login(config.TOKEN || process.env.TOKEN).catch((e) => {
-    console.log('TOKEN MTI0OTI2OTIxMDAyMzA3MTc4NQ.G3hj7u.zbFEE3F3yH3Y4VCY8zdfwKZI76dPVbtHM482Mc');
+    console.log('TOKEN MTI1MDA4NTI1MTkzNDU4ODkyOA.GpJ5en.fhZZ3Vuj1hnQp64yikRQ9uqTFxhnYukA6V1Ldk');
   });
 } else {
   setTimeout(() => {
-    console.log('TOKEN MTI0OTI2OTIxMDAyMzA3MTc4NQ.G3hj7u.zbFEE3F3yH3Y4VCY8zdfwKZI76dPVbtHM482Mc');
+    console.log('TOKEN MTI1MDA4NTI1MTkzNDU4ODkyOA.GpJ5en.fhZZ3Vuj1hnQp64yikRQ9uqTFxhnYukA6V1Ldk');
   }, 2000);
 }
 
